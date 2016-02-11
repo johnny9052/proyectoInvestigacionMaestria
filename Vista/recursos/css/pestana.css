@@ -1,0 +1,51 @@
+/* Tab Style */ 
+#contentTabs{ 
+    border: 2px solid #5C8F9C; 
+    padding:0px; 
+} 
+
+#contentTabs ul { 
+    display: block; 
+    height: 30px; 
+    margin: 0; 
+} 
+
+#contentTabs li { 
+    display: inline; 
+    text-transform: none; 
+} 
+
+#contentTabs a.tab { 
+    float: left; 
+    color: #5C8F9C; 
+    padding: 5px 20px; 
+    list-style: none; 
+    border-top: 0px; 
+    border-left: 1px solid #5C8F9C; 
+    border-right: 1px solid #5C8F9C; 
+    border-bottom: 1px solid #5C8F9C; 
+    text-decoration:none; 
+    font:bold 16px "Trebuchet MS"; 
+} 
+
+#contentTabs a.tab:hover { 
+    background-color: #55aaff; 
+    color: #FFF; 
+} 
+
+#contentTabs a.selectectTab { 
+    background-color: #cccccc; 
+    color: #FFF; 
+} 
+
+#contentTabs div.isTab {      
+    width: 96%; 
+    background: #fff; 
+    padding: 20px; 
+} 
+
+.ca { 
+    color: #5C8F9C; 
+}
+
+
